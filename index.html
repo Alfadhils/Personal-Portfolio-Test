@@ -13,7 +13,7 @@
         <div class="personal-info">
             <img src="assets\img\Fadhil_Image.jpg" alt="Your Photo">
             <h1 class="name">Fadhil Umar Al Farouq</h1>
-            <p class="occupation">Freshgraduate, AI Engineer</p>
+            <p class="occupation">Freshgraduate, <br> AI Engineer</p>
             <div class="contact-info">
                 <p><i class="fas fa-map-marker-alt"></i>&nbsp; Jakarta, Indonesia</p>
                 <p><i class="fas fa-envelope"></i>&nbsp; fadhilumar.af@gmail.com</p>
@@ -25,12 +25,21 @@
             </div>
         </div>
         <div class="main-content">
-            <section>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Work Experience</a></li>
+                </ul>
+            </nav>
+            <section id="about" class="content-section">
                 <h2>About Me</h2>
                 <p>
-                    Aspiring data intelligence professional with expertise in big data analysis, data science, database management, machine learning, artificial intelligence, and cloud computing. Dedicated to optimizing business processes through digital technologies. Internationally certified with a proven track record in delivering impactful solutions.                </p>
+                    Fadhil is an aspiring data intelligence professional with expertise in big data analysis, data science, database management, machine learning, artificial intelligence, and cloud computing. Dedicated to optimizing business processes through digital technologies. Internationally certified with a proven track record in delivering impactful solutions.
+                </p>
             </section>
-            <section>
+            <section id="skills" class="content-section">
                 <h2>Skills</h2>
                 <ul>
                     <li>Machine Learning/AI</li>
@@ -38,17 +47,18 @@
                     <li>Internet of Things</li>
                 </ul>
             </section>
-            <section>
+            <section id="projects" class="content-section">
                 <h2>Projects</h2>
                 <p>Project 1: Description of Project 1</p>
                 <p>Project 2: Description of Project 2</p>
             </section>
-            <section>
+            <section id="experience" class="content-section">
                 <h2>Work Experience</h2>
                 <p>Company A - Position - Duration</p>
                 <p>Company B - Position - Duration</p>
             </section>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
